@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# IOS Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a web-based simulation of the iOS calculator. It is designed to replicate the look and functionality of the calculator app found on iOS devices, providing a familiar interface for users to perform basic arithmetic operations.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React: Utilized for its efficient update and rendering of the user interface.
+- CSS: Used for styling the calculator to closely match the iOS aesthetic.
+- TypeScript: Offers type safety for variables and functions, enhancing code reliability and maintainability.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Basic Arithmetic Operations: Supports addition, subtraction, multiplication, and division.
+- Percentage Calculation: Allows users to quickly calculate percentages.
+- Toggle Positive/Negative: Users can easily switch between positive and negative numbers.
+- Responsive Design: The calculator is fully responsive, ensuring a seamless experience on both desktop and mobile devices.
+- Clear Functionality: Includes an "AC" button that clears all current operations, allowing users to start fresh.
 
-- Configure the top-level `parserOptions` property like this:
+## Live Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+You can view the live demo of the application [here](https://ios-calculator-react.netlify.app/).
